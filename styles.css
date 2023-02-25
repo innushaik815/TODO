@@ -1,0 +1,299 @@
+/* Styles for the note input panel */
+#note-input-panel {
+    width: 50vw;
+    margin: auto;
+    margin-top: 30px;
+  }
+  
+  /* Styles for the note container */
+  #note-container {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .note-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .note-content {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .delete-button {
+    background-color: #ff5252;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 5px 10px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .delete-button:hover {
+    background-color: #ff1744;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  /* Styles for the navbar */
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 24px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .navbar-toggler-icon {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .nav-link {
+    transition: color 0.3s ease-in-out;
+  }
+  
+  /* Styles for the animation */
+  .navbar-brand.animate {
+    transform: rotateY(360deg);
+  }
+  
+  .navbar-toggler-icon.animate {
+    transform: rotate(180deg);
+  }
+  
+  .nav-link.animate {
+    color: red;
+  }
+  
+  .note-light {
+    background-color: #fff;
+  }
+  
+  .note-dark {
+    background-color: #343a40;
+  }
+  
+  /* Styles for the toggle */
+  .toggle-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .toggle-label {
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  .toggle {
+    height: 30px;
+    width: 60px;
+    border-radius: 15px;
+    background-color: grey;
+    position: relative;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .toggle:before {
+    content: "";
+    position: absolute;
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+    background-color: white;
+    top: 2px;
+    left: 2px;
+    transition: transform 0.2s ease;
+  }
+  
+  .toggle.dark-mode {
+    background-color: #343a40;
+  }
+  
+  .toggle.dark-mode:before {
+    transform: translateX(30px);
+  }
+  
+  .toggle.light-mode:before {
+    transform: translateX(0);
+  }
+  
+  .toggle.light-mode:hover {
+    background-color: #ddd;
+  }
+  
+  .toggle.dark-mode:hover {
+    background-color: #555;
+  }
+  
+  #note-input-panel {
+    width: 50vw;
+    margin: auto;
+    margin-top: 30px;
+  }
+  
+  #note-container {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .note-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .note-content {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .delete-button {
+    background-color: #ff5252;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 5px 10px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .delete-button:hover {
+    background-color: #ff1744;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  /* Styles for the navbar */
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 24px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .navbar-toggler-icon {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .nav-link {
+    transition: color 0.3s ease-in-out;
+  }
+  
+  /* Styles for the animation */
+  .navbar-brand.animate {
+    transform: rotateY(360deg);
+  }
+  
+  .navbar-toggler-icon.animate {
+    transform: rotate(180deg);
+  }
+  
+  .nav-link.animate {
+    color: red;
+  }
+  
+  .note-light {
+    background-color: #fff;
+  }
+  
+  .note-dark {
+    background-color: #343a40;
+  }
+  
+  /* Styles for the take note section */
+  #note-input-panel .accordion-header {
+    background-color: #343a40;
+  }
+  
+  #note-input-panel .accordion-button {
+    color: white;
+  }
+  
+  #note-input-panel .accordion-button:focus {
+    box-shadow: none;
+  }
+  
+  #note-input-panel .collapse {
+    background-color: #343a40;
+  }
+  
+  #note-input-panel .form-label {
+    color: white;
+  }
+  
+  #note-input-panel .form-control {
+    background-color: #fff;
+    color: #343a40;
+  }
+  
+  #note-input-panel .form-control:focus {
+    background-color: #fff;
+    color: #343a40;
+    border-color: #ff1744;
+    box-shadow: none;
+  }
+  
+  #note-input-panel .form-control-color {
+    height: 40px;
+    width: 40px;
+    padding: 0;
+    border: none;
+    outline: none;
+    vertical-align: middle;
+  }
+  
+  #note-input-panel .buttonPadding {
+    padding: 20px;
+  }
+  
+  #note-input-panel .btn-primary {
+    background-color: #343a40;
+    border: none;
+  }
+  
+  #note-input-panel .btn-primary:hover {
+    background-color: #ff1744;
+  }
+  
+  #note-input-panel .btn-warning {
+    background-color: #ff9800;
+    border: none;
+  }
+  
+  #note-input-panel .btn-warning:hover {
+    background-color: #f57c00;
+  }
+  
+  #note-input-panel .btn-success {
+    background-color: #4caf50;
+    border: none;
+  }
+  
+  #note-input-panel .btn-success:hover {
+    background-color: #388e3c;
+  }
+  .note-input-panel-dark {
+    background-color: #343a40;
+  }
+  
+  .delete-button {
+    color: white;
+    background-color: #dc3545;
+    border-color: #dc3545;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    border-radius: 0.2rem;
+    padding: 0.375rem 0.75rem;
+    cursor: pointer;
+  }
